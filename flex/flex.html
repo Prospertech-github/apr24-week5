@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CSS flex </title>
+
+  <style>
+    .pseudo img{
+      width: 100%;
+      /* height: 400px; */
+    }
+    .pseudo{
+      border: 2px solid green;
+      width: 250px;
+      height: fit-content;
+    }
+    .flexCtn{
+      border: 1px solid brown;
+      /* width: 90%; */
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+      /* gap: 10px; */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ben10{
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="ben10">
+    <h2>Accelerate your career in Tech</h2>
+  </div>
+
+  <div class="flexCtn">
+    <div class="pseudo">
+      <img src="../imae.png" alt="First with issue">
+    </div>
+    <div class="pseudo">
+      <img src="../image.png" alt="">
+    </div>
+    <div class="pseudo">
+      <img src="../image.png" alt="">
+    </div>
+    <div class="pseudo">
+      <img src="../image.png" alt="">
+    </div>
+    <div class="pseudo">
+      <img src="../image.png" alt="">
+    </div>
+  </div>
+
+
+
+  </body>
+</body>
+</html>
